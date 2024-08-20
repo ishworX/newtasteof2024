@@ -1,9 +1,8 @@
 /* 
 Global Stylings
 */
-
 body {
-    font-family: 'open sans', sans-serif !important;
+    font-family: "Open Sans", sans-serif !important;
     background: #0c0b09 !important;
     color: #ffffff;
 }
@@ -14,7 +13,7 @@ a {
 }
 
 a:hover {
-    color : #d9ba85;
+    color: #d9ba85;
     text-decoration: none !important;
 }
 
@@ -23,11 +22,22 @@ h2,
 h3,
 h4,
 h5,
-h6 { 
-    font-family: 'Playfair Display', serif;
+h6 {
+    font-family: "Playfair Display", serif;
 }
 
-body :: -webkit-scrollbar {
+body::-webkit-scrollbar {
     display: none;
 }
 
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.section-bg {
+    background-color: #1a1814;
+}
