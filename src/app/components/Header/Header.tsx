@@ -3,6 +3,7 @@
 import React, {useState, useEffect }from 'react'
 import "./Header.css"
 import AppBtn from '../Button/AppBtn';
+import Navbar from '../NavBar/Navbar';
 
 export default function Header() {
     const [scroll, setScroll] = useState(0);
@@ -29,7 +30,8 @@ export default function Header() {
                 <h1 className='logo me-auto me-lg-0'>
                     <a href='/'> Taste of India </a>
                 </h1>
-            
+
+            <Navbar />
             <AppBtn name= "Book a table" />
             </div>
         </header>
