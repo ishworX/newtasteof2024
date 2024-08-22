@@ -5,7 +5,7 @@ import AOS from 'aos';
 
 import React, { useEffect } from 'react';
 import Glightbox from 'glightbox';
-import './hero.css';
+import './Hero.css';
 import HeroBtn from '../../components/Button/HeroBtn';
 
 export default function Hero() {
@@ -34,7 +34,7 @@ export default function Hero() {
                 <div className="row">
                     <div className="col-lg-8">
                         <h1>
-                            Welcome to yammy <span>Restaurant</span>
+                            New Taste Of <span>India</span>
                         </h1>
                         <h2>Delivering great food for more than 18 years!</h2>
 
@@ -49,7 +49,7 @@ export default function Hero() {
                         data-aos-delay="200"
                     >
                         <a
-                            href="https://www.youtube.com/watch?v=F3zw1Gvn4Mk"
+                            href="tel:+4033286666"
                             className="glightbox play-btn"
                         ></a>
                     </div>

@@ -2,16 +2,16 @@
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-    width: 100%;
-    height: 100vh;
-    background: url("../../../../public/assets/hero-bg.jpg") top center;
-    background-size: cover;
-    position: relative;
-    padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: url('../../../../public/assets/hero-bg.jpg') top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
 }
 
 #hero:before {
-  content: "";
+  content: '';
   background: rgba(0, 0, 0, 0.5);
   position: absolute;
   bottom: 0;
@@ -36,7 +36,7 @@
   font-weight: 700;
   line-height: 7.5rem;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 #hero h1 span {
@@ -64,7 +64,7 @@
 }
 
 #hero .play-btn::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   top: 50%;
@@ -79,7 +79,7 @@
 }
 
 #hero .play-btn::before {
-  content: "";
+  content: '\260E';
   position: absolute;
   width: 120px;
   height: 120px;
@@ -107,7 +107,7 @@
 }
 
 #hero .play-btn:hover::before {
-  content: "";
+  content: '\260E';
   position: absolute;
   left: 50%;
   top: 50%;
