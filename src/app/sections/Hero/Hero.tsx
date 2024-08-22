@@ -10,10 +10,11 @@ import HeroBtn from '../../components/Button/HeroBtn';
 
 export default function Hero() {
     useEffect(() => {
-        new Glightbox({
+        const lightbox = new (Glightbox as any)({
             selector: '.glightbox',
         });
     }, []);
+
 
     useEffect(() => {
         AOS.init({
