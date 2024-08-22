@@ -4,18 +4,11 @@
 import AOS from 'aos';
 
 import React, { useEffect } from 'react';
-import Glightbox from 'glightbox';
+import GLightbox from 'glightbox';
 import './Hero.css';
 import HeroBtn from '../../components/Button/HeroBtn';
 
 export default function Hero() {
-    useEffect(() => {
-        // @ts-ignore
-        new Glightbox({
-            selector: '.glightbox',
-        });
-    }, []);
-
 
     useEffect(() => {
         AOS.init({
