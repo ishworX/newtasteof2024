@@ -7,6 +7,7 @@ import React, { useEffect } from 'react';
 import GLightbox from 'glightbox';
 import './Hero.css';
 import HeroBtn from '../../components/Button/HeroBtn';
+import OrderBtn from '@/app/components/Button/OrderBtn';
 
 export default function Hero() {
 
@@ -34,8 +35,9 @@ export default function Hero() {
                         <h2>Delivering great food for more than 18 years!</h2>
 
                         <div className="btns">
-                            <HeroBtn name="our menu" target="menu" />
-                            <HeroBtn name="book a table" target="book-a-table" />
+                            <OrderBtn name="Order Takeout" url="https://order.online/store/new-taste-of-india-lethbridge-1084895/?hideModal=true&pickup=true&utm_medium=wp_plugin&utm_source=sdk&visitorId=222331914e0ad97714dabc" />
+                            <OrderBtn name="Order Delivery" url="https://order.online/business/-139827?utm_medium=wp_plugin&delivery=true&utm_source=sdk&visitorId=222331914e0ad97714dabc" />
+                            
                         </div>
                     </div>
                     <div
@@ -44,7 +46,7 @@ export default function Hero() {
                         data-aos-delay="200"
                     >
                         <a
-                            href="tel:+4033286666"
+                            href="tel:+14033286666"
                             className="glightbox play-btn"
                         ></a>
                     </div>

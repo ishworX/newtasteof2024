@@ -79,7 +79,7 @@
 }
 
 #hero .play-btn::before {
-  content: '\260E';
+  content: '';
   position: absolute;
   width: 120px;
   height: 120px;
@@ -107,7 +107,7 @@
 }
 
 #hero .play-btn:hover::before {
-  content: '\260E';
+  content: '';
   position: absolute;
   left: 50%;
   top: 50%;
