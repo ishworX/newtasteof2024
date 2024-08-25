@@ -32,7 +32,7 @@ export default function Hero() {
                         <h1>
                             New Taste Of <span>India</span>
                         </h1>
-                        <h2>Delivering great food for more than 18 years!</h2>
+                        <h2>Serving Indian, Indo-Chinese and Nepali Cuisine!</h2>
 
                         <div className="btns">
                             <OrderBtn name="Order Takeout" url="https://order.online/store/new-taste-of-india-lethbridge-1084895/?hideModal=true&pickup=true&utm_medium=wp_plugin&utm_source=sdk&visitorId=222331914e0ad97714dabc" />
