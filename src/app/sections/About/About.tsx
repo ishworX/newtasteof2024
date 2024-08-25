@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import aboutImage from '../../../../public/assets/about.jpg';
-import './about.css';
+import './About.css';
 
 export default function About() {
     return (
