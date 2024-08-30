@@ -154,3 +154,54 @@ export const menu = [
       Morbi rhoncus dui elit, vitae facilisis quam pulvinar eu. In maximus, augue vitae ultricies scelerisque, nisl odio convallis felis, a elementum neque nisl in nisi. Aliquam a lorem nec mi interdum.`,
     },
 ];
+
+export const filters = [
+    {
+        id: 1,
+        name: 'All',
+        category: 'all',
+        active: true,
+    },
+    {
+        id: 2,
+        name: 'Straters',
+        category: 'starters',
+        active: false,
+    },
+    {
+        id: 3,
+        name: 'Tandoori',
+        category: 'starters',
+        active: false,
+    },
+    {
+        id: 4,
+        name: 'Non-Veg Curry',
+        category: 'salads',
+        active: false,
+    },
+    {
+        id: 5,
+        name: 'Veg Curry',
+        category: 'specialty',
+        active: false,
+    },
+    {
+        id: 6,
+        name: 'Indo Chinese',
+        category: 'specialty',
+        active: false,
+    },
+    {
+        id: 7,
+        name: 'Naan',
+        category: 'specialty',
+        active: false,
+    },
+    {
+        id: 8,
+        name: 'Rice',
+        category: 'specialty',
+        active: false,
+    },
+];
